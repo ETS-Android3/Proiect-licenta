@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg5"
+    tools:context=".ActivityLesson9">
+
+
+    <Button
+        android:id="@+id/button96"
+        android:layout_width="100dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="208dp"
+        android:fontFamily="@font/ranchers"
+        android:text="Listen"
+        android:textSize="14sp"
+        app:backgroundTint="#D87D1C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.301"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView118"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="400dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/houselogo" />
+
+    <Button
+        android:id="@+id/button95"
+        android:layout_width="86dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="68dp"
+        android:fontFamily="@font/ranchers"
+        android:onClick="openActivityLesson10"
+        android:text="Next"
+        app:backgroundTint="#181B55"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.858"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="OnClick" />
+
+    <ImageView
+        android:id="@+id/imageView119"
+        android:layout_width="201dp"
+        android:layout_height="188dp"
+        android:layout_marginBottom="248dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/sofa" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="320dp"
+        android:layout_height="73dp"
+        android:layout_marginBottom="120dp"
+        android:fontFamily="@font/chewy"
+        android:text="A sofa is a piece of indoor furniture made for a number of people to sit on at the same time;"
+        android:textColor="#490606"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

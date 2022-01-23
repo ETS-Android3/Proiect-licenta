@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg9"
+    tools:context=".VerbLesson4">
+
+    <Button
+        android:id="@+id/button135"
+        android:layout_width="170dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="36dp"
+        android:fontFamily="@font/fredoka_one"
+        android:onClick="openVerbLesson5"
+        android:text="See next lesson"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:backgroundTint="#F3C521"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button127"
+        android:layout_width="66dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="284dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Listen"
+        android:textColor="#FFFFFF"
+        android:textSize="8sp"
+        app:backgroundTint="#ED4713"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.672"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button129"
+        android:layout_width="66dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="180dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Listen"
+        android:textColor="#FFFFFF"
+        android:textSize="8sp"
+        app:backgroundTint="#ED4713"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.739"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button134"
+        android:layout_width="66dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="136dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Listen"
+        android:textColor="#FFFFFF"
+        android:textSize="8sp"
+        app:backgroundTint="#ED4713"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.739"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="123dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="228dp"
+        android:background="#CD9961"
+        android:fontFamily="@font/fredoka_one"
+        android:text="More sentences:"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="444dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Use the simple past tense to talk about things that  happened in the past."
+        android:textColor="#EDE1E1"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView142"
+        android:layout_width="374dp"
+        android:layout_height="238dp"
+        android:layout_marginBottom="432dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/pasttenselogo" />
+
+    <ImageView
+        android:id="@+id/imageView144"
+        android:layout_width="128dp"
+        android:layout_height="131dp"
+        android:layout_marginBottom="268dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/dinosaur" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="248dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="320dp"
+        android:background="@drawable/bg7"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Dinosaurs lived millions of years ago"
+        android:textColor="#FBFBFB"
+        android:textSize="16sp"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="192dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="I bought a new camera last week. "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="148dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Who invented the computer? "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

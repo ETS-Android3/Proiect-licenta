@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg5"
+    tools:context=".JobLessonActivity7">
+
+
+    <Button
+        android:id="@+id/button90"
+        android:layout_width="86dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="72dp"
+        android:fontFamily="@font/ranchers"
+        android:onClick="openActivityLesson8"
+        android:text="Next"
+        app:backgroundTint="#181B55"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.898"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="336dp"
+        android:layout_height="113dp"
+        android:layout_marginBottom="136dp"
+        android:fontFamily="@font/chewy"
+        android:text="A teacher is a person who teaches or helps others (students) learn something.A teacher often works in a classroom.Some teachers teach young children in kindergarten or primary schools."
+        android:textColor="#490606"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button89"
+        android:layout_width="100dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="348dp"
+        android:fontFamily="@font/ranchers"
+        android:text="Listen"
+        android:textSize="14sp"
+        app:backgroundTint="#4F9C53"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.852"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView110"
+        android:layout_width="137dp"
+        android:layout_height="114dp"
+        android:layout_marginBottom="484dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/jobslogo" />
+
+    <ImageView
+        android:id="@+id/imageView112"
+        android:layout_width="215dp"
+        android:layout_height="224dp"
+        android:layout_marginBottom="252dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/teacher" />
+</androidx.constraintlayout.widget.ConstraintLayout>

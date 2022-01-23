@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg5"
+    tools:context=".HardLevelActivity">
+
+    <Button
+        android:id="@+id/button98"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="204dp"
+        android:text="Start  game"
+        app:backgroundTint="#21B1F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView122"
+        android:layout_width="338dp"
+        android:layout_height="199dp"
+        android:layout_marginBottom="252dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/truefalse" />
+
+    <ImageView
+        android:id="@+id/imageView124"
+        android:layout_width="145dp"
+        android:layout_height="135dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/train" />
+
+    <ImageView
+        android:id="@+id/imageView129"
+        android:layout_width="207dp"
+        android:layout_height="165dp"
+        android:layout_marginBottom="436dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/happykidss" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

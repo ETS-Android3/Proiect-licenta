@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">EnglishApp</string>
+    <string name="learn_english">Learn english</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="learn_fruits_and_vegetables">Learn fruits and vegetables</string>
+    <string name="learn_alphabet">Learn alphabet</string>
+    <string name="learn_numbers">Learn numbers</string>
+    <string name="learn_animals">Learn animals</string>
+    <string name="learn_colors">Learn colors</string>
+    <string name="learn1">TODO</string>
+    <string name="learn2">TODO</string>
+    <string name="learn4">TODO</string>
+    <string name="learn5">TODO</string>
+    <string name="learn6">TODO</string>
+    <string name="learn7">TODO</string>
+    <string name="learn8">TODO</string>
+    <string name="learn9">TODO</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_alphabet2">AlphabetActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="this_is_a_lion">This is a lion</string>
+    <string name="congratulations_you_have_finished_the_mini_lessons_now_you_are_ready_for_the_next_level_the_quiz_game_enjoy_it">Congratulations! You have finished the mini-lessons. Now you are ready for the next level, the quiz game.Enjoy it!</string>
+    <string name="good_job">Good job</string>
+</resources>

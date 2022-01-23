@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg5"
+    tools:context=".EasyLevelActivity">
+
+    <ImageView
+        android:id="@+id/imageView104"
+        android:layout_width="133dp"
+        android:layout_height="163dp"
+        android:layout_marginBottom="248dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/english" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="131dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="280dp"
+        android:fontFamily="@font/ranchers"
+        android:text="@string/learn_colors"
+        android:textSize="10sp"
+        app:backgroundTint="#1AD191"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button39"
+        android:layout_width="133dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="164dp"
+        android:fontFamily="@font/ranchers"
+        android:text="Learn animals"
+        android:textSize="10sp"
+        app:backgroundTint="#3CB641"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button40"
+        android:layout_width="135dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="@font/ranchers"
+        android:text="Learn fruits and vegetables"
+        android:textSize="10sp"
+        app:backgroundTint="#B63ACC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="81dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="264dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/colours" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="135dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="384dp"
+        android:fontFamily="@font/ranchers"
+        android:text="@string/learn_numbers"
+        android:textSize="10sp"
+        app:backgroundTint="#D14E1A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="85dp"
+        android:layout_height="79dp"
+        android:layout_marginBottom="372dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/numbers" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="131dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="492dp"
+        android:fontFamily="@font/ranchers"
+        android:text="@string/learn_alphabet"
+        android:textSize="10sp"
+        app:backgroundTint="#D11A1A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="97dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="480dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logoabc" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="86dp"
+        android:layout_height="81dp"
+        android:layout_marginBottom="156dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/animals" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="81dp"
+        android:layout_height="79dp"
+        android:layout_marginBottom="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/fruitsnveg" />
+</androidx.constraintlayout.widget.ConstraintLayout>

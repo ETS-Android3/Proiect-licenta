@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg12"
+    tools:context=".ProperNouns2">
+
+    <Button
+        android:id="@+id/button172"
+        android:layout_width="179dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="44dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Next lesson"
+        android:onClick="openProperNouns3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:backgroundTint="#E1764C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button162"
+        android:layout_width="115dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="372dp"
+        android:fontFamily="@font/baloo"
+        android:text="Monday"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:backgroundTint="#F62121"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.209"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button163"
+        android:layout_width="115dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="320dp"
+        android:fontFamily="@font/baloo"
+        android:text="Tuesday"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:backgroundTint="#F64C21"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button167"
+        android:layout_width="117dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="276dp"
+        android:fontFamily="@font/baloo"
+        android:text="Wednesday"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:backgroundTint="#FFC107"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button168"
+        android:layout_width="115dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="224dp"
+        android:fontFamily="@font/baloo"
+        android:text="Thursday"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:backgroundTint="#4CAF50"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button169"
+        android:layout_width="115dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="148dp"
+        android:fontFamily="@font/baloo"
+        android:text="Saturday"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:backgroundTint="#673AB7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button171"
+        android:layout_width="115dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="108dp"
+        android:fontFamily="@font/baloo"
+        android:text="Sunday"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:backgroundTint="#9C27B0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.293"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button170"
+        android:layout_width="115dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="184dp"
+        android:fontFamily="@font/baloo"
+        android:text="Friday"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:backgroundTint="#215DF6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.293"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="370dp"
+        android:layout_height="74dp"
+        android:fontFamily="@font/baloo"
+        android:text="The days of the week and months of the year are proper  nouns."
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.187" />
+
+    <ImageView
+        android:id="@+id/imageView173"
+        android:layout_width="281dp"
+        android:layout_height="136dp"
+        android:layout_marginBottom="504dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/propernounslogo" />
+
+    <ImageView
+        android:id="@+id/imageView174"
+        android:layout_width="210dp"
+        android:layout_height="267dp"
+        android:layout_marginBottom="148dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/daysoftheweek" />
+</androidx.constraintlayout.widget.ConstraintLayout>

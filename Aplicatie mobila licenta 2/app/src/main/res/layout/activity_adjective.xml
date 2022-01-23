@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    tools:context=".AdjectiveActivity">
+
+    <ImageView
+        android:id="@+id/imageView177"
+        android:layout_width="173dp"
+        android:layout_height="164dp"
+        android:layout_marginBottom="268dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/kidslearngrammar" />
+
+    <Button
+        android:id="@+id/button153"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="151dp"
+        android:layout_height="151dp"
+        android:layout_marginBottom="404dp"
+        android:fontFamily="@font/fredoka_one"
+        app:backgroundTint="#7EAA63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button158"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="151dp"
+        android:layout_height="151dp"
+        android:layout_marginBottom="144dp"
+        android:fontFamily="@font/fredoka_one"
+        app:backgroundTint="#7EAA63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button173"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="151dp"
+        android:layout_height="151dp"
+        android:layout_marginBottom="52dp"
+        android:fontFamily="@font/fredoka_one"
+        app:backgroundTint="#7EAA63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView161"
+        android:layout_width="262dp"
+        android:layout_height="228dp"
+        android:layout_marginBottom="372dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/quality" />
+
+    <ImageView
+        android:id="@+id/imageView168"
+        android:layout_width="217dp"
+        android:layout_height="208dp"
+        android:layout_marginBottom="124dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/origin" />
+
+    <ImageView
+        android:id="@+id/imageView175"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/comparison" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

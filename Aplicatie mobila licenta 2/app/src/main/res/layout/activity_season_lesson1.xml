@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg8"
+    tools:context=".SeasonLessonActivity2">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="316dp"
+        android:layout_height="106dp"
+        android:layout_marginBottom="140dp"
+        android:fontFamily="@font/chewy"
+        android:text="   Summer begins on the longest day of the year. In the north this is on 21 June. Summer is the warmest and sunniest time of the year. Fruit grows on trees."
+        android:textColor="#490606"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.621"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button80"
+        android:layout_width="100dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="248dp"
+        android:fontFamily="@font/ranchers"
+        android:text="Listen"
+        android:textSize="14sp"
+        app:backgroundTint="#419A45"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView101"
+        android:layout_width="236dp"
+        android:layout_height="156dp"
+        android:layout_marginBottom="452dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/seasonslogo" />
+
+    <Button
+        android:id="@+id/button79"
+        android:layout_width="86dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="76dp"
+        android:fontFamily="@font/ranchers"
+        android:onClick="openSeasonLessonActivity2"
+        android:text="@string/next"
+        app:backgroundTint="#181B55"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.889"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="OnClick" />
+
+    <ImageView
+        android:id="@+id/imageView102"
+        android:layout_width="310dp"
+        android:layout_height="186dp"
+        android:layout_marginBottom="296dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/summer" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

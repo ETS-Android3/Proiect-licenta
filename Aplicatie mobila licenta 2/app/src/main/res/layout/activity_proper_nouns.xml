@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg12"
+    tools:context=".ProperNouns">
+
+    <Button
+        android:id="@+id/button166"
+        android:layout_width="179dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/fredoka_one"
+        android:onClick="openProperNouns2"
+        android:text="Next lesson"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:backgroundTint="#E1764C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button161"
+        android:layout_width="115dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="436dp"
+        android:fontFamily="@font/baloo"
+        android:text="American"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:backgroundTint="#F64C21"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button165"
+        android:layout_width="115dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="76dp"
+        android:fontFamily="@font/baloo"
+        android:text="Korean"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:backgroundTint="#F64C21"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView171"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button164"
+        android:layout_width="115dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="88dp"
+        android:fontFamily="@font/baloo"
+        android:text="Indian"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:backgroundTint="#F64C21"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView165"
+        android:layout_width="281dp"
+        android:layout_height="136dp"
+        android:layout_marginBottom="480dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/propernounslogo" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="378dp"
+        android:layout_height="113dp"
+        android:fontFamily="@font/baloo"
+        android:text="Proper nouns are names for particular people, places or  things. They always begin with a capital letter. The names of countries and their people are also  proper nouns. "
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.457" />
+
+    <ImageView
+        android:id="@+id/imageView167"
+        android:layout_width="137dp"
+        android:layout_height="146dp"
+        android:layout_marginBottom="388dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.667"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/american" />
+
+    <ImageView
+        android:id="@+id/imageView171"
+        android:layout_width="167dp"
+        android:layout_height="139dp"
+        android:layout_marginBottom="128dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/korean" />
+
+    <ImageView
+        android:id="@+id/imageView172"
+        android:layout_width="124dp"
+        android:layout_height="157dp"
+        android:layout_marginBottom="128dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.944"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/indian" />
+</androidx.constraintlayout.widget.ConstraintLayout>

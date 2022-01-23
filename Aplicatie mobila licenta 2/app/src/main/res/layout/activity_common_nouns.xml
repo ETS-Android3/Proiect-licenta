@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg12"
+    tools:context=".CommonNouns">
+
+    <Button
+        android:id="@+id/button110"
+        android:layout_width="105dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="352dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Acrobat"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:backgroundTint="#CA3737"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button155"
+        android:layout_width="105dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="300dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Lawyer"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:backgroundTint="#CA3737"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button157"
+        android:layout_width="179dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Next lesson"
+        android:onClick="openCommonNouns2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:backgroundTint="#CA3737"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.396"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button156"
+        android:layout_width="105dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="108dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Astronaut"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:backgroundTint="#CA3737"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="384dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:fontFamily="@font/baloo"
+        android:text=" These are words for people. They are common nouns."
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.627" />
+
+    <ImageView
+        android:id="@+id/imageView105"
+        android:layout_width="250dp"
+        android:layout_height="134dp"
+        android:layout_marginBottom="476dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/logopeople" />
+
+    <ImageView
+        android:id="@+id/imageView153"
+        android:layout_width="159dp"
+        android:layout_height="178dp"
+        android:layout_marginBottom="388dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/acrobat" />
+
+    <ImageView
+        android:id="@+id/imageView163"
+        android:layout_width="133dp"
+        android:layout_height="129dp"
+        android:layout_marginBottom="344dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/lawyer" />
+
+    <ImageView
+        android:id="@+id/imageView164"
+        android:layout_width="145dp"
+        android:layout_height="132dp"
+        android:layout_marginBottom="144dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/astronaut" />
+</androidx.constraintlayout.widget.ConstraintLayout>

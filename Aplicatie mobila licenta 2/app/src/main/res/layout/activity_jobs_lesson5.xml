@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    tools:context=".JobsLessonActivity5">
+
+
+    <Button
+        android:id="@+id/button86"
+        android:layout_width="86dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="80dp"
+        android:fontFamily="@font/ranchers"
+        android:onClick="openJobsLessonActivity6"
+        android:text="Next"
+        app:backgroundTint="#181B55"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button85"
+        android:layout_width="100dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="328dp"
+        android:fontFamily="@font/ranchers"
+        android:text="Listen"
+        android:textSize="14sp"
+        app:backgroundTint="#258822"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.826"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView106"
+        android:layout_width="126dp"
+        android:layout_height="91dp"
+        android:layout_marginBottom="496dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/jobslogo" />
+
+    <ImageView
+        android:id="@+id/imageView109"
+        android:layout_width="215dp"
+        android:layout_height="224dp"
+        android:layout_marginBottom="256dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/detective" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="289dp"
+        android:layout_height="112dp"
+        android:layout_marginBottom="140dp"
+        android:fontFamily="@font/chewy"
+        android:text="The detective is a person, often a police officer, whose job is to find information that will solve crimes. The detective found enough evidence to arrest the suspect."
+        android:textColor="#490606"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

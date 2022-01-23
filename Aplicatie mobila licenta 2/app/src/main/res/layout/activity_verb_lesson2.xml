@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg9"
+    tools:context=".VerbLesson2">
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="123dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="304dp"
+        android:background="#AF1766"
+        android:fontFamily="@font/fredoka_one"
+        android:text="More sentences:"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button123"
+        android:layout_width="170dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="48dp"
+        android:fontFamily="@font/fredoka_one"
+        android:onClick="openVerbLesson3"
+        android:text="See next lesson"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:backgroundTint="#F3C521"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="456dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="The words am, is, are are also verbs, but they are not  action words. They are the simple present tense of the  verb be.  "
+        android:textColor="#EDE1E1"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView137"
+        android:layout_width="121dp"
+        android:layout_height="114dp"
+        android:layout_marginBottom="340dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/donkey" />
+
+    <ImageView
+        android:id="@+id/imageView138"
+        android:layout_width="210dp"
+        android:layout_height="140dp"
+        android:layout_marginBottom="468dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/verb2" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="248dp"
+        android:layout_height="29dp"
+        android:layout_marginBottom="396dp"
+        android:background="@drawable/bg8"
+        android:fontFamily="@font/fredoka_one"
+        android:text="It is a donkey.  It is not a horse. "
+        android:textColor="#E91E63"
+        android:textSize="16sp"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.171"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="157dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginLeft="124dp"
+        android:layout_marginBottom="44dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="I am Peter. I am not Paul."
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView19"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="212dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginBottom="180dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="She is Miss Lee. She is a teacher."
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button112"
+        android:layout_width="66dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="252dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Listen"
+        android:textColor="#FFFFFF"
+        android:textSize="8sp"
+        app:backgroundTint="#9E204A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.84"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button121"
+        android:layout_width="66dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="364dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Listen"
+        android:textColor="#FFFFFF"
+        android:textSize="8sp"
+        app:backgroundTint="#9E204A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button113"
+        android:layout_width="66dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="180dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Listen"
+        android:textColor="#FFFFFF"
+        android:textSize="8sp"
+        app:backgroundTint="#9E204A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.84"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

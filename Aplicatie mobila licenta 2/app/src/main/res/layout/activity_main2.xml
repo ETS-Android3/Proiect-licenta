@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pop2_bg"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="82dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/chewy"
+        android:text="Start"
+        android:textSize="12sp"
+        app:backgroundTint="#C85C2B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.841"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="82dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:fontFamily="@font/chewy"
+        android:text="Start"
+        android:textSize="12sp"
+        app:backgroundTint="#6A23A8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.534" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="82dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/chewy"
+        android:text="Start"
+        android:textSize="12sp"
+        app:backgroundTint="#16A2DA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.841"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.691" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="491dp"
+        android:layout_height="278dp"
+        android:layout_marginBottom="340dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/chooselogo" />
+
+    <ImageView
+        android:id="@+id/imageView114"
+        android:layout_width="244dp"
+        android:layout_height="228dp"
+        android:layout_marginBottom="164dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/select" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="337dp"
+        android:layout_height="278dp"
+        android:layout_marginTop="384dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.783"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/enjoykids" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg12"
+    tools:context=".CommonNouns4">
+
+    <Button
+        android:id="@+id/button192"
+        android:layout_width="105dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="448dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="a battery"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:backgroundTint="#CA7737"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button194"
+        android:layout_width="105dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="304dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="a key"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:backgroundTint="#03A9F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button199"
+        android:layout_width="105dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="136dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="a flower"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:backgroundTint="#D85B87"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button200"
+        android:layout_width="105dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="120dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="flowers"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:backgroundTint="#D85B87"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button195"
+        android:layout_width="105dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="304dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="keys"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:backgroundTint="#03A9F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button193"
+        android:layout_width="105dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="436dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="batteries"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:backgroundTint="#CA7737"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView179"
+        android:layout_width="88dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="496dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/battery" />
+
+    <ImageView
+        android:id="@+id/imageView189"
+        android:layout_width="88dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="484dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/battery" />
+
+    <ImageView
+        android:id="@+id/imageView190"
+        android:layout_width="88dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="472dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.987"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/battery" />
+
+    <ImageView
+        android:id="@+id/imageView191"
+        android:layout_width="88dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="340dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/key" />
+
+    <ImageView
+        android:id="@+id/imageView192"
+        android:layout_width="88dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="340dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/key" />
+
+    <ImageView
+        android:id="@+id/imageView193"
+        android:layout_width="88dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="344dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.987"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/key" />
+
+    <ImageView
+        android:id="@+id/imageView199"
+        android:layout_width="88dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="372dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flower" />
+
+    <ImageView
+        android:id="@+id/imageView202"
+        android:layout_width="88dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="324dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flower" />
+
+    <ImageView
+        android:id="@+id/imageView200"
+        android:layout_width="88dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="340dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.798"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flower" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

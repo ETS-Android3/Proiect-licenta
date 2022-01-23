@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    tools:context=".SeasonLessonActivity1">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="322dp"
+        android:layout_height="115dp"
+        android:layout_marginBottom="152dp"
+        android:fontFamily="@font/chewy"
+        android:text=" Winter begins on the shortest day of the year. In the north this is on 21 December. The weather is colder and in some places there is lots of snow."
+        android:textColor="#490606"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button82"
+        android:layout_width="100dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="272dp"
+        android:fontFamily="@font/ranchers"
+        android:text="Listen"
+        android:textSize="14sp"
+        app:backgroundTint="#66A6A4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView101"
+        android:layout_width="209dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="468dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/seasonslogo" />
+
+    <Button
+        android:id="@+id/button79"
+        android:layout_width="86dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="56dp"
+        android:fontFamily="@font/ranchers"
+        android:onClick="openJobsLessonActivity4"
+        android:text="@string/next"
+        app:backgroundTint="#181B55"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.904"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="OnClick" />
+
+    <ImageView
+        android:id="@+id/imageView100"
+        android:layout_width="290dp"
+        android:layout_height="166dp"
+        android:layout_marginBottom="316dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/winter" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

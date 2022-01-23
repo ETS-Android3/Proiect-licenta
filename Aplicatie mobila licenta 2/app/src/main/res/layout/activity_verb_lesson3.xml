@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg9"
+    tools:context=".VerbLesson3">
+
+    <Button
+        android:id="@+id/button132"
+        android:layout_width="170dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="52dp"
+        android:fontFamily="@font/fredoka_one"
+        android:onClick="openVerbLesson4"
+        android:text="See next lesson"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:backgroundTint="#F3C521"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button124"
+        android:layout_width="66dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="384dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Listen"
+        android:textColor="#FFFFFF"
+        android:textSize="8sp"
+        app:backgroundTint="#44BD40"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button128"
+        android:layout_width="61dp"
+        android:layout_height="28dp"
+        android:layout_marginBottom="264dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Listen"
+        android:textColor="#FFFFFF"
+        android:textSize="7sp"
+        app:backgroundTint="#44BD40"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.797"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button131"
+        android:layout_width="61dp"
+        android:layout_height="28dp"
+        android:layout_marginBottom="204dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Listen"
+        android:textColor="#FFFFFF"
+        android:textSize="7sp"
+        app:backgroundTint="#44BD40"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.797"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="123dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="312dp"
+        android:background="#9ADA03"
+        android:fontFamily="@font/fredoka_one"
+        android:text="More sentences:"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="248dp"
+        android:layout_height="29dp"
+        android:layout_marginBottom="416dp"
+        android:background="@drawable/bg5"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Uncle Joe wears glasses."
+        android:textColor="#FBFBFB"
+        android:textSize="16sp"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="472dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="The simple present tense expresses a general truth or  a customary action. "
+        android:textColor="#EDE1E1"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView135"
+        android:layout_width="492dp"
+        android:layout_height="241dp"
+        android:layout_marginBottom="436dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/simple" />
+
+    <ImageView
+        android:id="@+id/imageView136"
+        android:layout_width="119dp"
+        android:layout_height="98dp"
+        android:layout_marginBottom="372dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.085"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/glasses" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginBottom="276dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Mary enjoys singing."
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginBottom="216dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Tom collects stamps. "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    tools:context=".JobsLessonActivity6">
+
+
+    <Button
+        android:id="@+id/button88"
+        android:layout_width="100dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="328dp"
+        android:fontFamily="@font/ranchers"
+        android:text="Listen"
+        android:textSize="14sp"
+        app:backgroundTint="#2D6C73"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.771"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView110"
+        android:layout_width="137dp"
+        android:layout_height="114dp"
+        android:layout_marginBottom="480dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/jobslogo" />
+
+    <Button
+        android:id="@+id/button87"
+        android:layout_width="86dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="72dp"
+        android:fontFamily="@font/ranchers"
+        android:onClick="openJobsLessonActivity7"
+        android:text="Next"
+        app:backgroundTint="#181B55"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.923"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="OnClick" />
+
+    <ImageView
+        android:id="@+id/imageView111"
+        android:layout_width="215dp"
+        android:layout_height="224dp"
+        android:layout_marginBottom="248dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/doctor" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="323dp"
+        android:layout_height="93dp"
+        android:layout_marginBottom="136dp"
+        android:fontFamily="@font/chewy"
+        android:text="Sometimes when you get sick, all you need is to sleep and drink plenty of fluids.A doctor is a person who has received medical training to treat sick and injured people (patients)."
+        android:textColor="#490606"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

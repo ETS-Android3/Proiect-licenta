@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="english.app">
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_foreground"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EnglishApp">
+        <activity android:name=".CommonNouns4"></activity>
+        <activity android:name=".CommonNouns3" />
+        <activity android:name=".AdjectiveActivity" />
+        <activity android:name=".ProperNouns3" />
+        <activity android:name=".ProperNouns2" />
+        <activity android:name=".CommonNouns2" />
+        <activity android:name=".SingularAndPluralNouns" />
+        <activity android:name=".ProperNouns" />
+        <activity android:name=".CommonNouns" />
+        <activity android:name=".NounsActivity" />
+        <activity android:name=".RegularVerbs" />
+        <activity android:name=".IrregularVerbs" />
+        <activity android:name=".VerbsAndTensesActivity" />
+        <activity android:name=".VerbLesson5" />
+        <activity android:name=".VerbLesson4" />
+        <activity android:name=".VerbLesson3" />
+        <activity android:name=".VerbLesson2" />
+        <activity android:name=".VerbsLesson1" />
+        <activity android:name=".GrammarActivity" />
+        <activity android:name=".IntermediateActivity" />
+        <activity android:name=".AlphabetActivity" />
+        <activity android:name=".AlphabetActivity2" />
+        <activity android:name=".ResultsActivity" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".HardLevelActivity" />
+        <activity android:name=".ActivityLesson11" />
+        <activity android:name=".ActivityLesson10" />
+        <activity android:name=".ActivityLesson9" />
+        <activity android:name=".ActivityLesson8" />
+        <activity android:name=".BeginnerAndIntermediateActivity" />
+        <activity android:name=".JobLessonActivity7" />
+        <activity android:name=".JobsLessonActivity6" />
+        <activity android:name=".JobsLessonActivity5" />
+        <activity android:name=".JobsLessonActivity4" />
+        <activity android:name=".SeasonLessonActivity3" />
+        <activity android:name=".StartLessonsActivity" />
+        <activity android:name=".SeasonLessonActivity2" />
+        <activity android:name=".SeasonLessonActivity1" />
+        <activity android:name=".MediumLevelActivity" />
+        <activity android:name=".AlphabetActivity3" />
+        <activity android:name=".EasyLevelActivity" />
+        <activity android:name=".ColorsActivity" />
+        <activity android:name=".FruitsAndVegActivity" />
+        <activity android:name=".AnimalsActivity" />
+        <activity android:name=".NumbersActivity" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".SplashActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
